@@ -14,6 +14,8 @@
 body{
     margin: 0;
     font-family: 'helvetica-lt-pro', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 /* --------MOBILE DESIGN */
@@ -25,30 +27,41 @@ header h1{
     margin: 0;
 }
 
- /* Hero Section */
-#hero{
+ /* ---------- Hero Section */
+#hero-section{
     position: relative;
+    flex: 1;
 }
 #hero-bg{
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; */
+    
+}
+#vid-placeholder{
+    width: 100%;
+    height: 100%;
+}
+/* #hero-vid{
+    width: 100%;
+} */
+#hero-content{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 0;
-}
-#hero-vid{
-    width: 100%;
-}
-#hero-content{
-    padding: 0 1rem;
-    position: absolute;
+    height: 100%;
     z-index: 1;
+    overflow: hidden;
+
+    padding: 0 1rem;
     color: white;
     background-color: rgb(0,0,0,0.5);
 }
 /* #hero-content h2{font-family: 'new-kansas-swash';}
  */
 
-/* Specials Section */
+/* -------- Specials Section */
 #specials-container{
     display: flex;
     flex-wrap: nowrap;
@@ -57,6 +70,9 @@ header h1{
 footer{
     position:sticky;
     bottom: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 50%;
     background-color: grey;
     margin: 0;
     padding: 1rem 2rem;

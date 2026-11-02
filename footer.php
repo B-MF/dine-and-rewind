@@ -1,10 +1,11 @@
+    </main>
     <footer>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">Passport</a></li>
-                <li><a href="#">Account</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="locations.php">Location</a></li>
+                <li><a href="passport.php">Passport</a></li>
+                <li><a href="profile.php">Account</a></li>
             </ul>
         </nav>
     </footer>  

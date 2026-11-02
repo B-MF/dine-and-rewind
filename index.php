@@ -1,10 +1,17 @@
-<?php require('header.php') ?>
+<?php 
+    require('header.php');
 
-<section id="hero">
+    //Create Specials Cards
+
+    
+?>
+
+<section id="hero-section">
     <div id="hero-bg">
-        <video autoplay muted loop id="hero-vid">
+        <img src="https://placeholder.com/400x500" alt="vid placeholder" id="vid-placeholder">
+        <!-- <video autoplay muted loop id="hero-vid">
             <source src="https://cdn.pixabay.com/video/2016/05/12/3152-166336023_large.mp4">
-        </video>
+        </video> -->
     </div>
     <div id="hero-content">
         <h2>Discover Calgary's Vintage Side</h2>
@@ -21,4 +28,4 @@
     </div>
 </section>
 
-<?php require('footer.php') ?>
+<?php require('footer.php'); ?>
