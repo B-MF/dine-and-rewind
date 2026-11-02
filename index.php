@@ -1,14 +1,15 @@
 <?php 
+    $pageTitle = "Home";
     require('header.php');
 
     //Create Specials Cards
+    //Structure
 
-    
 ?>
 
 <section id="hero-section">
     <div id="hero-bg">
-        <img src="https://placeholder.com/400x500" alt="vid placeholder" id="vid-placeholder">
+        <img src="https://placeholder.com/400x300" alt="vid placeholder" id="vid-placeholder">
         <!-- <video autoplay muted loop id="hero-vid">
             <source src="https://cdn.pixabay.com/video/2016/05/12/3152-166336023_large.mp4">
         </video> -->
@@ -21,11 +22,30 @@
 
 <section id="specials-container">
     <div class="specials-card">
+        <h3>Location</h3>
         <p>Location's Special</p>
     </div>
     <div class="specials-card">
-        Location's Special
+        <h3>Location</h3>
+        <p>Location's Special</p>
     </div>
+    <div class="specials-card">
+        <h3>Location</h3>
+        <p>Location's Special</p>
+    </div>
+    <div class="specials-card">
+        <h3>Location</h3>
+        <p>Location's Special</p>
+    </div>
+    <div class="specials-card">
+        <h3>Location</h3>
+        <p>Location's Special</p>
+    </div>
+</section>
+
+<section id="frequently-asked">
+    <h2>Frequently Asked Questions</h2>
+
 </section>
 
 <?php require('footer.php'); ?>

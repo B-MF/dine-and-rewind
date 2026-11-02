@@ -14,14 +14,17 @@
 body{
     margin: 0;
     font-family: 'helvetica-lt-pro', Arial, sans-serif;
+    
     display: flex;
     flex-direction: column;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'new-kansas-swash';
 }
 
 /* --------MOBILE DESIGN */
 header{
     padding: 1rem;
-    font-family: 'new-kansas-swash';
 }
 header h1{
     margin: 0;
@@ -30,7 +33,6 @@ header h1{
  /* ---------- Hero Section */
 #hero-section{
     position: relative;
-    flex: 1;
 }
 #hero-bg{
     /* position: absolute;
@@ -41,7 +43,6 @@ header h1{
 }
 #vid-placeholder{
     width: 100%;
-    height: 100%;
 }
 /* #hero-vid{
     width: 100%;
@@ -65,6 +66,17 @@ header h1{
 #specials-container{
     display: flex;
     flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 1rem;
+    height: fit-content;
+
+    padding: 1rem;
+}
+.specials-card{
+    background-color: lightblue;
+
+    align-content: center;
+    padding: .5rem;
 }
 
 footer{

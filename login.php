@@ -2,7 +2,9 @@
     $pageTitle = "Login";
     require('header.php'); 
 
-    //
+    //Database Connection
+    //Create or Access Account
+    
 ?>
 
 
