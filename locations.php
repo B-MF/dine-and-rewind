@@ -5,7 +5,8 @@
     //Create Location Cards
     //Switch between List and Map
     //Interactive SVG Map
+        
 ?>
 
 
-<?php require('footer.php') ?>
+<?php require('footer.php'); ?>

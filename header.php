@@ -1,4 +1,18 @@
+<?php
+    //Connecting to the Database
+    $server = "localhost";
+    $username = "bmorante_dnr_admin";
+    $password = "c0WM9gqeVnbad*OQ";
+    $database = "bmorante_dine_and_rewind";
 
+    $connection = mysqli_connect($server,$username,$password,$database);
+    
+    //Connection Error 
+    if(!$connection){
+        die(mysqli_connect_error());
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
